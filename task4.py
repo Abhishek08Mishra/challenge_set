@@ -1,9 +1,9 @@
 def extract_evens_and_update(data, extra_value):
     
     evens_value = []
-    for x in data:
-        if x % 2 == 0:
-            evens_value.append(x)
+    for num in data:
+        if num % 2 == 0:
+            evens_value.append(num)
     
     # Convert the list of evens to a tuple
     evens_value = tuple(evens_value)
